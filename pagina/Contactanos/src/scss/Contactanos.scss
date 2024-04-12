@@ -1,0 +1,377 @@
+@use "utils" as *;
+@use "global" as *;
+
+.contactanos {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .rect {
+    position: absolute;
+    top: -105px;
+    left: 80px;
+    width: 552px;
+    height: 460px;
+  }
+  .group {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    display: flex;
+    flex-direction: column;
+    width: 3128px;
+    height: 3128px;
+  }
+  .decorator {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3128px;
+    height: 3128px;
+    @include mq-between(xxl, max) {
+      width: 5500px;
+    }
+    @include mq-between(xxl, xxxl) {
+      width: 3400px;
+    }
+  }
+  .medium_title {
+    position: absolute;
+    top: 2297px;
+    left: 876px;
+    width: 1358px;
+    height: 16px;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .group1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 249px auto 228px;
+    width: 80.35%;
+  }
+  .rect1 {
+    position: relative;
+    min-height: 953px;
+    background-color: rgb(218, 218, 218);
+  }
+  .group2 {
+    position: absolute;
+    top: 36px;
+    left: 29px;
+    display: flex;
+    flex-direction: column;
+    width: 1096px;
+    height: 881px;
+  }
+  .group3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 1096px;
+    height: 881px;
+  }
+  .rect2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1430px;
+    height: 881px;
+    background-color: rgb(255, 255, 255);
+    @include mq-between(xxl, max) {
+      width: 3225px;
+    }
+    @include mq-between(xxl, xxxl) {
+      width: 1470px;
+    }
+    @include xl {
+      width: 970px;
+    }
+    @include lg {
+      width: 770px;
+    }
+    @include md {
+      width: 560px;
+    }
+    @include sm {
+      width: 480px;
+    }
+    @include xs {
+      width: 400px;
+    }
+    @include xxs {
+      width: 280px;
+    }
+    @include tn {
+      width: 250px;
+    }
+  }
+  .highlight {
+    position: absolute;
+    bottom: 19px;
+    left: 47px;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 52px;
+    font: 500 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(121, 110, 255);
+    border-radius: 4px 4px 4px 4px;
+    padding: 18px 21px 18px 21px;
+    @include lg {
+      bottom: 18px;
+    }
+    @include xs {
+      left: 20px;
+    }
+  }
+  .rect4 {
+    position: absolute;
+    bottom: 102px;
+    left: 47px;
+    width: 1021px;
+    height: 162px;
+    background-color: rgb(217, 217, 217);
+    @include mq-between(xxl, max) {
+      width: 2500px;
+    }
+    @include xl {
+      width: 900px;
+    }
+    @include lg {
+      bottom: 93px;
+      width: 700px;
+    }
+    @include md {
+      width: 500px;
+    }
+    @include sm {
+      width: 400px;
+      height: 110px;
+    }
+    @include xs {
+      left: 5px;
+      width: 390px;
+    }
+    @include xxs {
+      width: 260px;
+    }
+    @include tn {
+      width: 230px;
+    }
+  }
+  .subtitle {
+    position: absolute;
+    top: 555px;
+    left: 47px;
+    width: 1038px;
+    height: 48px;
+    font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include lg {
+      top: 540px;
+      width: 700px;
+    }
+    @include md {
+      width: 550px;
+    }
+    @include sm {
+      width: 450px;
+    }
+    @include xs {
+      left: 5px;
+    }
+    @include xxs {
+      align-items: flex-start;
+      width: 300px;
+      font-size: 14px;
+    }
+    @include tn {
+      width: 240px;
+    }
+  }
+  .rect3 {
+    position: absolute;
+    top: 482px;
+    left: 47px;
+    width: 1021px;
+    height: 42px;
+    background-color: rgb(217, 217, 217);
+    @include mq-between(xxl, max) {
+      width: 2500px;
+    }
+    @include xl {
+      width: 900px;
+    }
+    @include lg {
+      width: 700px;
+    }
+    @include md {
+      width: 500px;
+    }
+    @include sm {
+      width: 400px;
+    }
+    @include xs {
+      left: 5px;
+      width: 390px;
+    }
+    @include xxs {
+      width: 260px;
+    }
+    @include tn {
+      width: 230px;
+    }
+  }
+  .subtitle1 {
+    position: absolute;
+    top: 425px;
+    left: 47px;
+    width: 1038px;
+    height: 48px;
+    font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xs {
+      left: 10px;
+    }
+    @include xxs {
+      left: 5px;
+      align-items: flex-start;
+      font-size: 14px;
+    }
+  }
+  .rect31 {
+    position: absolute;
+    top: 339px;
+    left: 47px;
+    width: 1021px;
+    height: 42px;
+    background-color: rgb(217, 217, 217);
+    @include mq-between(xxl, max) {
+      width: 2500px;
+    }
+    @include xl {
+      width: 900px;
+    }
+    @include lg {
+      width: 700px;
+    }
+    @include md {
+      width: 500px;
+    }
+    @include sm {
+      width: 400px;
+    }
+    @include xs {
+      left: 5px;
+      width: 390px;
+    }
+    @include xxs {
+      width: 260px;
+    }
+    @include tn {
+      width: 230px;
+    }
+  }
+  .subtitle2 {
+    position: absolute;
+    top: 279px;
+    left: 47px;
+    width: 1038px;
+    height: 48px;
+    font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xs {
+      top: 255px;
+      left: 2px;
+      width: 400px;
+    }
+    @include xxs {
+      align-items: flex-start;
+      width: 290px;
+      font-size: 14px;
+    }
+  }
+  .rect32 {
+    position: absolute;
+    top: 203px;
+    left: 47px;
+    width: 1021px;
+    height: 42px;
+    background-color: rgb(217, 217, 217);
+    @include mq-between(xxl, max) {
+      width: 2500px;
+    }
+    @include xl {
+      width: 900px;
+    }
+    @include lg {
+      width: 700px;
+    }
+    @include md {
+      width: 500px;
+    }
+    @include sm {
+      width: 400px;
+    }
+    @include xs {
+      left: 5px;
+      width: 390px;
+    }
+    @include xxs {
+      width: 260px;
+    }
+    @include tn {
+      width: 230px;
+    }
+  }
+  .subtitle3 {
+    position: absolute;
+    top: 148px;
+    left: 47px;
+    width: 1038px;
+    height: 48px;
+    font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      left: 5px;
+      align-items: flex-start;
+      font-size: 14px;
+    }
+  }
+  .hero_title {
+    position: absolute;
+    top: 48px;
+    left: 47px;
+    width: 1038px;
+    height: 48px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include sm {
+      left: 20px;
+    }
+    @include xs {
+      align-items: flex-start;
+      font-size: 54px;
+    }
+    @include xxs {
+      width: 800px;
+      font-size: 34px;
+    }
+    @include tn {
+      left: 10px;
+    }
+  }
+}

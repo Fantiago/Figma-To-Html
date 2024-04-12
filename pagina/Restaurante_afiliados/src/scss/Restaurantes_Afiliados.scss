@@ -1,0 +1,124 @@
+@use "utils" as *;
+@use "global" as *;
+
+.restaurantes-afiliados {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 76px 0px;
+    margin: 53px 37px 53px 21px;
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px 0px;
+    width: 97.97%;
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 76.29%;
+  }
+  .medium_title {
+    margin: 0px 0px 142px;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title {
+    display: flex;
+    justify-content: center;
+    margin: 110px 0px 0px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .big_title {
+    margin: 0px 0px 0px 21px;
+    font: 400 36px/1.16 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .flex_row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 7px;
+    width: 100%;
+    @include mq-between(xxl, xxxl) {
+      justify-content: center;
+      column-gap: 7px;
+    }
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 7px;
+    width: 443px;
+  }
+  .image2 {
+    width: 96.84%;
+  }
+  .image4 {
+    margin: 73px 0px 0px;
+    width: 97.97%;
+  }
+  .image {
+    margin: 26px 0px 0px;
+    width: 100%;
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    width: 504px;
+  }
+  .image5 {
+    width: 100%;
+  }
+  .image6 {
+    margin: 30px 11.17% 0px auto;
+    width: 382px;
+  }
+  .image1 {
+    margin: 12px 8.58% 0px auto;
+    width: 380px;
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 102px;
+    width: 420px;
+  }
+  .image3 {
+    width: 100%;
+  }
+  .image7 {
+    margin: 105px 0px 0px;
+    width: 89.05%;
+  }
+  .image8 {
+    margin: 58px 0px 0px;
+    width: 93.1%;
+  }
+}

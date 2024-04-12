@@ -1,0 +1,109 @@
+@use "utils" as *;
+@use "global" as *;
+
+.comunidad {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 105px 0px;
+    margin: 53px auto 213px;
+    width: 86.22%;
+  }
+  .medium_title {
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 0px auto;
+    width: 89.17%;
+  }
+  .hero_title {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .big_title {
+    margin: 30px 0px 0px;
+    width: auto;
+    font: 400 36px/1.11 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title1 {
+    margin: 167px 0px 0px;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: 39px 0px 0px;
+    width: auto;
+    height: auto;
+    font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    text-align: center;
+  }
+  .hero_title2 {
+    margin: 62px 0px 0px;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .title1 {
+    display: flex;
+    justify-content: center;
+    margin: 51px 0px 0px;
+    width: auto;
+    height: auto;
+    font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    text-align: center;
+  }
+  .hero_title3 {
+    display: flex;
+    justify-content: center;
+    margin: 62px 0px 0px;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .title2 {
+    display: flex;
+    justify-content: center;
+    margin: 68px 0px 0px;
+    width: auto;
+    height: auto;
+    font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    text-align: center;
+  }
+}

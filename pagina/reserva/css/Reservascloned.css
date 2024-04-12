@@ -1,0 +1,146 @@
+.reservascloned.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.reservascloned .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.reservascloned .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.reservascloned .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 53px auto 64px;
+  width: 93.54%;
+}
+.reservascloned .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.reservascloned .medium_title {
+  width: 100%;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.reservascloned .hero_title {
+  display: flex;
+  justify-content: center;
+  margin: 71px 0px 0px;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.reservascloned .title {
+  margin: 23px 0px 0px;
+  width: 98.96%;
+  font: 400 32px/1.31 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.reservascloned .hero_title1 {
+  margin: 24px 0px 0px;
+  width: 97.92%;
+  font: 600 48px/1 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.reservascloned .title1 {
+  margin: 14px 0px 0px;
+  width: 98.96%;
+  font: 400 32px/1.31 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.reservascloned .rect2 {
+  margin: 4px 0px 0px;
+  width: 98.07%;
+  min-height: 90px;
+  background-color: whitesmoke;
+}
+.reservascloned .hero_title11 {
+  margin: 15px 0px 0px;
+  width: 97.92%;
+  font: 600 48px/1 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.reservascloned .title2 {
+  margin: 12px 0px 0px;
+  width: 98.96%;
+  font: 400 32px/1.31 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.reservascloned .rect3 {
+  margin: 10px 0px 0px;
+  width: 98.07%;
+  min-height: 69px;
+  background-color: whitesmoke;
+}
+.reservascloned .flex_row {
+  display: flex;
+  gap: 0px 22px;
+  margin: 26px 0px 0px;
+  width: 98.22%;
+}
+.reservascloned .hero_title12 {
+  margin: 9px 0px 14px;
+  font: 600 48px/1 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.reservascloned .rect5 {
+  width: 152px;
+  min-height: 71px;
+  background-color: whitesmoke;
+}
+.reservascloned .flex_row1 {
+  display: flex;
+  gap: 0px 28px;
+  margin: 40px 0px 0px;
+  width: 98.22%;
+}
+.reservascloned .hero_title2 {
+  margin: 0px 0px 30px;
+  width: 389px;
+  font: 600 48px/1.22 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.reservascloned .rect4 {
+  width: 904px;
+  min-height: 148px;
+  background-color: whitesmoke;
+}
+.reservascloned .flex_row2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 74px 0px 0px;
+  width: 98.07%;
+}
+.reservascloned .subtitle {
+  width: 1000px;
+  font: 400 20px/2.1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.reservascloned .title11 {
+  display: flex;
+  justify-content: center;
+  margin: 22px 0px 10px;
+  width: 287px;
+  font: 500 32px/0.5 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #796eff;
+  border-radius: 4px 4px 4px 4px;
+  padding: 18px 21.5px 18px 21.5px;
+  letter-spacing: -0.1px;
+}

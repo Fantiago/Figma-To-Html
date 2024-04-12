@@ -1,0 +1,104 @@
+.comunidad.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.comunidad .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.comunidad .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.comunidad .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 105px 0px;
+  margin: 53px auto 213px;
+  width: 86.22%;
+}
+.comunidad .medium_title {
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.comunidad .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 0px auto;
+  width: 89.17%;
+}
+.comunidad .hero_title {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.comunidad .big_title {
+  margin: 30px 0px 0px;
+  width: auto;
+  font: 400 36px/1.11 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.comunidad .hero_title1 {
+  margin: 167px 0px 0px;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.comunidad .title {
+  display: flex;
+  justify-content: center;
+  margin: 39px 0px 0px;
+  width: auto;
+  height: auto;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}
+.comunidad .hero_title2 {
+  margin: 62px 0px 0px;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.comunidad .title1 {
+  display: flex;
+  justify-content: center;
+  margin: 51px 0px 0px;
+  width: auto;
+  height: auto;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}
+.comunidad .hero_title3 {
+  display: flex;
+  justify-content: center;
+  margin: 62px 0px 0px;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.comunidad .title2 {
+  display: flex;
+  justify-content: center;
+  margin: 68px 0px 0px;
+  width: auto;
+  height: auto;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}

@@ -1,0 +1,220 @@
+@use "utils" as *;
+@use "global" as *;
+
+.inicio-de-sesion {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .rect {
+    position: absolute;
+    bottom: -640px;
+    left: -33px;
+    width: 1505px;
+    height: 640px;
+    background-color: rgb(251, 250, 254);
+    outline: 1px solid rgb(240, 235, 250);
+    outline-offset: -1px;
+  }
+  .group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .section1Content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include xl {
+      flex-wrap: wrap;
+      column-gap: 0px;
+    }
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    margin: 114px 0px 0px;
+    width: 86.11%;
+    @include sm {
+      flex-wrap: wrap;
+      column-gap: 0px;
+    }
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 81.77%;
+    @include xxs {
+      flex-wrap: wrap;
+      column-gap: 10px;
+    }
+  }
+  .medium_title1 {
+    margin: 0px 0px 61px;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title {
+    margin: 53px 0px 0px;
+    width: 692px;
+    font: 400 96px/0.25 "Josefin Sans", Helvetica, Arial, serif;
+    color: rgb(29, 40, 48);
+    letter-spacing: -5.76px;
+    @include lg {
+      width: auto;
+    }
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    margin: 135px 0px 0px 7.02%;
+    width: 73.95%;
+    @include sm {
+      width: auto;
+    }
+    @include xxs {
+      align-items: center;
+      column-gap: 0px;
+    }
+    @include tn {
+      flex-wrap: wrap;
+      align-items: start;
+    }
+  }
+  .highlight2 {
+    display: flex;
+    justify-content: center;
+    width: 571px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .highlight21 {
+    display: flex;
+    justify-content: center;
+    margin: 37px 6.54% 0px auto;
+    width: 571px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image32 {
+    margin: 11px 0px 0px auto;
+    width: 75.03%;
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    margin: 77px 0px 0px 6.45%;
+    width: 75%;
+    @include sm {
+      width: auto;
+    }
+  }
+  .highlight22 {
+    display: flex;
+    justify-content: center;
+    margin: 19px 7.96% 0px auto;
+    width: 571px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .image321 {
+    margin: 12px 0px 0px auto;
+    width: 73.98%;
+  }
+  .flex_row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 124px auto 0px;
+    width: 91.29%;
+    @include tn {
+      justify-content: space-around;
+      column-gap: 8px;
+    }
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 73px 0px;
+    margin: 0px 0px 21px;
+    width: 449px;
+  }
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    width: 40.31%;
+    background-color: rgb(121, 76, 255);
+    border-radius: 33.5px 33.5px 33.5px 33.5px;
+  }
+  .medium_title {
+    margin: 8px 14px 7px 16px;
+    font: 500 24px/2.16 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .line5 {
+    width: 100%;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(0, 0, 0);
+  }
+  .image33 {
+    margin: 118px 0px 0px;
+    width: 50px;
+    height: 44px;
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    gap: 73px 0px;
+    margin: 0px 0px 21px;
+    width: 449px;
+  }
+  .content_box1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25.61% 0px auto;
+    width: 181px;
+    background-color: rgb(121, 76, 255);
+    border-radius: 33.5px 33.5px 33.5px 33.5px;
+  }
+  .medium_title2 {
+    margin: 8px 24px 7px 16px;
+    font: 500 24px/2.16 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .line51 {
+    width: auto;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(0, 0, 0);
+  }
+  .line4 {
+    margin: 650px 0px 26px;
+    width: 100%;
+    height: 0px;
+    min-height: 0px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.1;
+  }
+}

@@ -1,0 +1,122 @@
+.restaurantes-afiliados.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.restaurantes-afiliados .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.restaurantes-afiliados .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.restaurantes-afiliados .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 76px 0px;
+  margin: 53px 37px 53px 21px;
+}
+.restaurantes-afiliados .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px 0px;
+  width: 97.97%;
+}
+.restaurantes-afiliados .flex_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 76.29%;
+}
+.restaurantes-afiliados .medium_title {
+  margin: 0px 0px 142px;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.restaurantes-afiliados .hero_title {
+  display: flex;
+  justify-content: center;
+  margin: 110px 0px 0px;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.restaurantes-afiliados .big_title {
+  margin: 0px 0px 0px 21px;
+  font: 400 36px/1.16 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.restaurantes-afiliados .flex_row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 7px;
+  width: 100%;
+}
+@media (min-width: 1920px) and (max-width: 2999px) {
+  .restaurantes-afiliados .flex_row1 {
+    justify-content: center;
+    -moz-column-gap: 7px;
+    column-gap: 7px;
+  }
+}
+.restaurantes-afiliados .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 7px;
+  width: 443px;
+}
+.restaurantes-afiliados .image2 {
+  width: 96.84%;
+}
+.restaurantes-afiliados .image4 {
+  margin: 73px 0px 0px;
+  width: 97.97%;
+}
+.restaurantes-afiliados .image {
+  margin: 26px 0px 0px;
+  width: 100%;
+}
+.restaurantes-afiliados .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  width: 504px;
+}
+.restaurantes-afiliados .image5 {
+  width: 100%;
+}
+.restaurantes-afiliados .image6 {
+  margin: 30px 11.17% 0px auto;
+  width: 382px;
+}
+.restaurantes-afiliados .image1 {
+  margin: 12px 8.58% 0px auto;
+  width: 380px;
+}
+.restaurantes-afiliados .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 102px;
+  width: 420px;
+}
+.restaurantes-afiliados .image3 {
+  width: 100%;
+}
+.restaurantes-afiliados .image7 {
+  margin: 105px 0px 0px;
+  width: 89.05%;
+}
+.restaurantes-afiliados .image8 {
+  margin: 58px 0px 0px;
+  width: 93.1%;
+}

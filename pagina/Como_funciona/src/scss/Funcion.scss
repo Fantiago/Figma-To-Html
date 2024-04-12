@@ -1,0 +1,288 @@
+@use "utils" as *;
+@use "global" as *;
+
+.funcion {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 114px auto 276px;
+    width: 91.32%;
+  }
+  .decorator {
+    position: absolute;
+    top: -2342px;
+    left: -887px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .medium_title {
+    width: 97.41%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title {
+    margin: 70px 0px 0px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 78px 0px 0px;
+    width: 100%;
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+  }
+  .hero_title1_box {
+    margin: 0px 0px 0px 4px;
+    width: 86.05%;
+  }
+  .hero_title1 {
+    font: 400 40px/0.6 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title1_span0 {
+    font: 1em/0.6 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title1_span1 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title2_box {
+    margin: 113px 0px 0px 1px;
+  }
+  .hero_title2 {
+    font: 400 40px/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title2_span0 {
+    font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title2_span1 {
+    font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title2_span2 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .title_box {
+    margin: 45px 0px 0px;
+    width: 86.05%;
+  }
+  .title {
+    font: 400 32px/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .title_span0 {
+    font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .title_span1 {
+    font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 561px;
+  }
+  .hero_title2_box1 {
+    width: 98.93%;
+  }
+  .hero_title2_span3 {
+    font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title1_box1 {
+    margin: 61px 0px 0px;
+    width: 98.93%;
+  }
+  .hero_title1_span11 {
+    font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title1_span2 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .title_box1 {
+    margin: 146px 0px 0px;
+    width: 98.93%;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 417px;
+    min-height: 417px;
+    background-color: rgb(29, 40, 48);
+  }
+  .highlight {
+    position: absolute;
+    top: 80px;
+    right: 1183px;
+    bottom: 321px;
+    left: 178px;
+    width: 79px;
+    height: 16px;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight1 {
+    position: absolute;
+    top: 120px;
+    right: 1146px;
+    bottom: 281px;
+    left: 178px;
+    width: 116px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight11 {
+    position: absolute;
+    top: 160px;
+    right: 1165px;
+    bottom: 241px;
+    left: 178px;
+    width: 97px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight2 {
+    position: absolute;
+    top: 80px;
+    right: 715px;
+    bottom: 321px;
+    left: 662px;
+    width: 63px;
+    height: 16px;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight12 {
+    position: absolute;
+    top: 120px;
+    right: 652px;
+    bottom: 281px;
+    left: 662px;
+    width: 126px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight13 {
+    position: absolute;
+    top: 160px;
+    right: 607px;
+    bottom: 241px;
+    left: 662px;
+    width: 171px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight14 {
+    position: absolute;
+    top: 200px;
+    right: 691px;
+    bottom: 201px;
+    left: 662px;
+    width: 87px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight3 {
+    position: absolute;
+    top: 80px;
+    right: 268px;
+    bottom: 321px;
+    left: 1130px;
+    width: 42px;
+    height: 16px;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight15 {
+    position: absolute;
+    top: 120px;
+    right: 166px;
+    bottom: 281px;
+    left: 1130px;
+    width: 144px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight16 {
+    position: absolute;
+    top: 160px;
+    right: 147px;
+    bottom: 241px;
+    left: 1130px;
+    width: 163px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight17 {
+    position: absolute;
+    top: 200px;
+    right: 153px;
+    bottom: 201px;
+    left: 1130px;
+    width: 157px;
+    height: 16px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .text {
+    position: absolute;
+    top: 370px;
+    right: 967px;
+    bottom: 33px;
+    left: 198px;
+    width: 275px;
+    height: 14px;
+    font: 400 14px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(217, 219, 225);
+  }
+  .decorator1 {
+    position: absolute;
+    top: 361px;
+    right: 147px;
+    bottom: 24px;
+    left: 1093px;
+    width: 200px;
+    height: 32px;
+  }
+}

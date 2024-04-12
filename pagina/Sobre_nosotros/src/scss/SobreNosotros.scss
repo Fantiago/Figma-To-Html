@@ -1,0 +1,104 @@
+@use "utils" as *;
+@use "global" as *;
+
+.sobre-nosotros {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 48px auto 80px;
+    width: 88.26%;
+    @include xl {
+      justify-content: center;
+      column-gap: 10px;
+    }
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 109px 0px;
+    margin: 0px 0px 20px;
+    width: 576px;
+  }
+  .medium_title {
+    width: 100%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96.35%;
+  }
+  .medium_title2 {
+    width: 93.87%;
+    font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title {
+    margin: 111px 0px 0px;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .medium_title1 {
+    margin: 30px 0px 0px;
+    font: 400 32px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .image1 {
+    margin: 129px 0px 0px;
+    width: auto;
+    max-width: 100%;
+  }
+  .hero_title1 {
+    margin: 81px 0px 0px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 244px 0px 0px;
+    width: 555px;
+  }
+  .image {
+    width: auto;
+    max-width: 100%;
+  }
+  .hero_title2 {
+    margin: 118px 0px 0px;
+    width: auto;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .image2 {
+    margin: 145px 0px 0px;
+    width: auto;
+    max-width: 100%;
+  }
+}
