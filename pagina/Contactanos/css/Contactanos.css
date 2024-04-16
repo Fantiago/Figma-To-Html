@@ -1,0 +1,124 @@
+.contactanos.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.contactanos .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.contactanos .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.contactanos .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 180px 0px;
+  margin: 53px auto 228px;
+  width: 86.18%;
+}
+.contactanos .medium_title {
+  width: 100%;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.contactanos .content_box2 {
+  display: flex;
+  flex-direction: column;
+  width: 93.23%;
+  background-color: #dadada;
+}
+.contactanos .content_box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 36px 32px 36px 29px;
+  background-color: white;
+}
+.contactanos .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  margin: 48px auto 19px;
+  width: 93.16%;
+}
+.contactanos .hero_title {
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 575px) {
+  .contactanos .hero_title {
+    align-items: flex-start;
+    font-size: 50px;
+  }
+}
+@media (max-width: 479px) {
+  .contactanos .hero_title {
+    font-size: 35px;
+  }
+}
+.contactanos .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px 0px;
+  margin: 52px 0px 0px;
+}
+.contactanos .subtitle {
+  width: 100%;
+  font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.contactanos .rect3 {
+  width: 100%;
+  min-height: 42px;
+  background-color: #d9d9d9;
+}
+.contactanos .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px 0px;
+  margin: 34px 0px 0px;
+}
+.contactanos .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px 0px;
+  margin: 44px 0px 0px;
+}
+.contactanos .flex_col5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px 0px;
+  margin: 31px 0px 0px;
+}
+.contactanos .rect4 {
+  width: 100%;
+  min-height: 162px;
+  background-color: #d9d9d9;
+}
+.contactanos .content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 31px 0px 0px;
+  width: 90px;
+  background-color: #796eff;
+  border-radius: 4px 4px 4px 4px;
+}
+.contactanos .highlight {
+  display: flex;
+  justify-content: center;
+  margin: 18px 21px;
+  font: 500 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,113 @@
+.comunidad.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.comunidad .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.comunidad .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.comunidad .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 105px 0px;
+  margin: 53px auto 213px;
+  width: 86.22%;
+}
+.comunidad .medium_title {
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.comunidad .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px auto;
+  width: 89.17%;
+}
+.comunidad .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0px;
+  width: 96.66%;
+}
+.comunidad .hero_title {
+  display: flex;
+  justify-content: center;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .comunidad .hero_title {
+    align-items: flex-start;
+    font-size: 40px;
+  }
+}
+.comunidad .big_title {
+  font: 400 36px/1.11 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.comunidad .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 39px 0px;
+  margin: 167px 0px 0px;
+  width: 53.66%;
+}
+.comunidad .title {
+  display: flex;
+  justify-content: center;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}
+.comunidad .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 51px 0px;
+  margin: 62px 0px 0px;
+  width: 60.7%;
+}
+.comunidad .title1 {
+  display: flex;
+  justify-content: center;
+  width: 88.39%;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}
+.comunidad .flex_col5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 68px 0px;
+  margin: 62px 0px 0px;
+  width: 100%;
+}
+.comunidad .title2 {
+  display: flex;
+  justify-content: center;
+  width: 53.66%;
+  font: 400 32px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+  text-align: center;
+}

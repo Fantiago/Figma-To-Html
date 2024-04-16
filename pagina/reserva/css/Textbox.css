@@ -1,0 +1,11 @@
+.center-textbox-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px; /* set the height of the container */
+    left: -20px;
+  }
+  
+  #userInput {
+    display: inline-block;
+  }

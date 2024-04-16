@@ -1,0 +1,132 @@
+.politicade-cookies.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.politicade-cookies .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.politicade-cookies .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 116px 0px;
+  margin: 53px auto 118px;
+  width: 93.68%;
+}
+@media (max-width: 1399px) {
+  .politicade-cookies .flex_col {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.politicade-cookies .flex_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 10px;
+  width: 869px;
+}
+@media (max-width: 1399px) {
+  .politicade-cookies .flex_row {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.politicade-cookies .medium_title {
+  margin: 0px 0px 142px;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.politicade-cookies .hero_title {
+  display: flex;
+  justify-content: center;
+  margin: 110px 0px 0px;
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.politicade-cookies .flex_row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0px 10px;
+}
+@media (max-width: 1399px) {
+  .politicade-cookies .flex_row1 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.politicade-cookies .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  width: 616px;
+}
+.politicade-cookies .hero_title1 {
+  width: auto;
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.politicade-cookies .medium_title1 {
+  margin: 30px 0px 0px;
+  font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.politicade-cookies .hero_title2 {
+  margin: 83px 0px 0px;
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.politicade-cookies .medium_title11 {
+  margin: 30px 0px 0px;
+  width: auto;
+  font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.politicade-cookies .hero_title3 {
+  margin: 98px 12px 0px 0px;
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.politicade-cookies .medium_title12 {
+  margin: 48px 0px 0px;
+  width: auto;
+  font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.politicade-cookies .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px 0px;
+  width: 648px;
+}
+.politicade-cookies .hero_title4 {
+  font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.politicade-cookies .medium_title13 {
+  font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}

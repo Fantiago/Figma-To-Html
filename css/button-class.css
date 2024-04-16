@@ -1,0 +1,16 @@
+.button-class {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #00000000;
+    background-color: #00000000;
+    padding: 1px;
+    border-radius: 4;
+    text-align: center;
+    
+
+}
+
+.sin-subrayado {
+    text-decoration: none; /* Elimina el subrayado */
+}

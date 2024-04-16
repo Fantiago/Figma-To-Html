@@ -1,0 +1,125 @@
+@use "utils" as *;
+@use "global" as *;
+
+.contactanos {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 180px 0px;
+    margin: 53px auto 228px;
+    width: 86.18%;
+  }
+  .medium_title {
+    width: 100%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .content_box2 {
+    display: flex;
+    flex-direction: column;
+    width: 93.23%;
+    background-color: rgb(218, 218, 218);
+  }
+  .content_box1 {
+    display: flex;
+    flex-direction: column;
+    margin: 36px 32px 36px 29px;
+    background-color: rgb(255, 255, 255);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    margin: 48px auto 19px;
+    width: 93.16%;
+  }
+  .hero_title {
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xs {
+      align-items: flex-start;
+      font-size: 50px;
+    }
+    @include xxs {
+      font-size: 35px;
+    }
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px 0px;
+    margin: 52px 0px 0px;
+  }
+  .subtitle {
+    width: 100%;
+    font: 600 20px/2.4 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .rect3 {
+    width: 100%;
+    min-height: 42px;
+    background-color: rgb(217, 217, 217);
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px 0px;
+    margin: 34px 0px 0px;
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px 0px;
+    margin: 44px 0px 0px;
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px 0px;
+    margin: 31px 0px 0px;
+  }
+  .rect4 {
+    width: 100%;
+    min-height: 162px;
+    background-color: rgb(217, 217, 217);
+  }
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    margin: 31px 0px 0px;
+    width: 90px;
+    background-color: rgb(121, 110, 255);
+    border-radius: 4px 4px 4px 4px;
+  }
+  .highlight {
+    display: flex;
+    justify-content: center;
+    margin: 18px 21px;
+    font: 500 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}

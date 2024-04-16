@@ -1,0 +1,135 @@
+@use "utils" as *;
+@use "global" as *;
+
+.politica-de-cookies {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 94px 0px;
+    margin: 53px auto 118px;
+    width: 93.68%;
+  }
+  .medium_title {
+    width: 100%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 116px 0px;
+    width: 100%;
+  }
+  .hero_title {
+    display: flex;
+    justify-content: center;
+    font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .flex_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 100%;
+    @include xl {
+      flex-wrap: nowrap;
+      column-gap: 10px;
+    }
+    @include lg {
+      flex-wrap: wrap;
+    }
+    @include xxs {
+      column-gap: 8px;
+    }
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 616px;
+    @include xl {
+      justify-content: center;
+      column-gap: 0px;
+    }
+    @include xxs {
+      align-items: center;
+    }
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0px;
+  }
+  .hero_title1 {
+    display: flex;
+    justify-content: center;
+    width: 81.66%;
+    font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .medium_title1 {
+    font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0px;
+    margin: 83px 0px 0px;
+    width: 90.1%;
+  }
+  .hero_title2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font: 600 40px/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px 0px;
+    margin: 98px 12px 0px 0px;
+  }
+  .medium_title11 {
+    width: 91.89%;
+    font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .flex_col6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px 0px;
+    width: 648px;
+  }
+}

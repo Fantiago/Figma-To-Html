@@ -1,0 +1,413 @@
+.funcion.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.funcion .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.funcion .decorator {
+  position: absolute;
+  top: -2228px;
+  left: -844px;
+  width: 3128px;
+  height: 3128px;
+}
+@media (max-width: 1399px) {
+  .funcion .decorator {
+    left: -904px;
+  }
+}
+@media (max-width: 1199px) {
+  .funcion .decorator {
+    left: -1050px;
+  }
+}
+@media (max-width: 991px) {
+  .funcion .decorator {
+    left: -1190px;
+  }
+}
+@media (max-width: 767px) {
+  .funcion .decorator {
+    left: -1230px;
+  }
+}
+@media (max-width: 575px) {
+  .funcion .decorator {
+    left: -1250px;
+  }
+}
+@media (max-width: 479px) {
+  .funcion .decorator {
+    left: -1350px;
+  }
+}
+@media (max-width: 383px) {
+  .funcion .decorator {
+    left: -1370px;
+  }
+}
+.funcion .flex_col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 78px 0px;
+  margin: 114px auto 276px;
+  width: 91.32%;
+}
+@media (max-width: 479px) {
+  .funcion .flex_col {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+  }
+}
+.funcion .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px 0px;
+  width: 89.28%;
+}
+@media (max-width: 479px) {
+  .funcion .flex_col1 {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.funcion .medium_title {
+  width: 100%;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.funcion .hero_title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font: 600 64px/0.9 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+  text-align: center;
+}
+.funcion .flex_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 100%;
+}
+@media (max-width: 479px) {
+  .funcion .flex_row {
+    flex-direction: column;
+    gap: 8px 10px;
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+  }
+}
+.funcion .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  width: 645px;
+}
+@media (max-width: 479px) {
+  .funcion .flex_col2 {
+    align-items: center;
+    gap: 8px;
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+  }
+}
+.funcion .hero_title1_box {
+  display: flex;
+  margin: 0px 0px 0px 4px;
+  width: 86.05%;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title1_box {
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.funcion .hero_title1 {
+  font: 400 40px/0.8 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.funcion .hero_title1_span0 {
+  font: 1em/0.6 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .hero_title1_span1 {
+  font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .hero_title2_box {
+  display: flex;
+  margin: 113px 0px 0px 1px;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title2_box {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 0px 0px;
+    width: 100%;
+  }
+}
+.funcion .hero_title2 {
+  font: 400 40px/0.9 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title2 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.funcion .hero_title2_span0 {
+  font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .hero_title2_span1 {
+  font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .hero_title2_span2 {
+  font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .title_box {
+  display: flex;
+  margin: 45px 0px 0px;
+  width: 86.05%;
+}
+@media (max-width: 479px) {
+  .funcion .title_box {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 0px 0px;
+    width: 100%;
+  }
+}
+.funcion .title {
+  font: 400 32px/0.9 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .funcion .title {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+.funcion .title_span0 {
+  font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .title_span1 {
+  font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 561px;
+}
+@media (max-width: 479px) {
+  .funcion .flex_col3 {
+    -moz-column-gap: 0px;
+    column-gap: 0px;
+    margin: 100px 0px 0px;
+    width: 100%;
+  }
+}
+.funcion .hero_title21_box {
+  display: flex;
+  width: 98.93%;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title21_box {
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 1 auto;
+    width: 374px;
+  }
+}
+.funcion .hero_title21 {
+  font: 400 40px/0.72 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title21 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.funcion .hero_title21_span0 {
+  font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .hero_title21_span1 {
+  font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .hero_title21_span2 {
+  font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .hero_title21_span3 {
+  font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .hero_title11_box {
+  display: flex;
+  margin: 61px 0px 0px;
+  width: 98.93%;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title11_box {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 0px 0px;
+    width: 374.02px;
+  }
+}
+.funcion .hero_title11 {
+  font: 400 40px/0.6 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .funcion .hero_title11 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.funcion .hero_title11_span0 {
+  font: 1em/0.6 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .hero_title11_span1 {
+  font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.funcion .hero_title11_span2 {
+  font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.funcion .title_box1 {
+  display: flex;
+  margin: 146px 0px 0px;
+  width: 98.93%;
+}
+@media (max-width: 479px) {
+  .funcion .title_box1 {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 0px 0px;
+  }
+}
+.funcion .section2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d2830;
+}
+.funcion .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 145px 0px;
+  margin: 80px auto 24px;
+  width: 77.43%;
+}
+.funcion .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 100%;
+}
+.funcion .flex_col5 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0px;
+  margin: 0px 0px 40px;
+  width: 116px;
+}
+.funcion .highlight {
+  margin: 0px 37px 0px 0px;
+  font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .highlight1 {
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .highlight11 {
+  margin: 0px 19px 0px 0px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .flex_col6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px 0px;
+  width: 171px;
+}
+.funcion .highlight2 {
+  width: 100%;
+  font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .highlight12 {
+  width: 100%;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .flex_col7 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0px;
+  width: 163px;
+}
+.funcion .highlight3 {
+  font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .highlight13 {
+  margin: 0px 6px 0px 0px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.funcion .flex_row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  width: 98.21%;
+}
+.funcion .text {
+  font: 400 14px/1 "Inter", Helvetica, Arial, serif;
+  color: #d9dbe1;
+}
+.funcion .decorator1 {
+  width: 200px;
+}

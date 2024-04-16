@@ -1,0 +1,125 @@
+.header__group1 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 140px;
+}
+.header__medium_title {
+  position: absolute;
+  top: 64px;
+  right: 1102px;
+  bottom: 52px;
+  left: 165px;
+  width: 173px;
+  height: 24px;
+  font: 400 24px/1 "Josefin Sans", Helvetica, Arial, serif;
+  color: #1d2830;
+  letter-spacing: -1.44px;
+}
+.header__highlight2 {
+  position: absolute;
+  top: 68px;
+  right: 935px;
+  bottom: 56px;
+  left: 390px;
+  width: 115px;
+  height: 16px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.header__image {
+  position: absolute;
+  top: 72px;
+  right: 923px;
+  bottom: 60px;
+  left: 509px;
+  width: 8px;
+  height: 8px;
+}
+.header__highlight21 {
+  position: absolute;
+  top: 68px;
+  right: 801px;
+  bottom: 56px;
+  left: 561px;
+  width: 78px;
+  height: 16px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.header__image1 {
+  position: absolute;
+  top: 72px;
+  right: 789px;
+  bottom: 60px;
+  left: 643px;
+  width: 8px;
+  height: 8px;
+}
+.header__highlight22 {
+  position: absolute;
+  top: 68px;
+  right: 646px;
+  bottom: 56px;
+  left: 695px;
+  width: 99px;
+  height: 16px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.header__highlight23 {
+  position: absolute;
+  top: 68px;
+  right: 532px;
+  bottom: 56px;
+  left: 838px;
+  width: 70px;
+  height: 16px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.header__image2 {
+  position: absolute;
+  top: 72px;
+  right: 520px;
+  bottom: 60px;
+  left: 912px;
+  width: 8px;
+  height: 8px;
+}
+.header__highlight24 {
+  position: absolute;
+  top: 68px;
+  right: 324px;
+  bottom: 56px;
+  left: 1015px;
+  width: 101px;
+  height: 16px;
+  font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.header__rect1 {
+  position: absolute;
+  top: 52px;
+  right: 166px;
+  bottom: 40px;
+  left: 1132px;
+  width: 142px;
+  height: 48px;
+  background-color: #ece5ff;
+  border-radius: 4px 4px 4px 4px;
+}
+.header__highlight3 {
+  position: absolute;
+  top: 68px;
+  right: 193px;
+  bottom: 56px;
+  left: 1155px;
+  display: flex;
+  justify-content: center;
+  width: 92px;
+  height: 16px;
+  font: 500 16px/1 "Inter", Helvetica, Arial, serif;
+  color: #794cff;
+  text-align: center;
+}

@@ -1,0 +1,370 @@
+@use "utils" as *;
+@use "global" as *;
+
+.funcion {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2228px;
+    left: -844px;
+    width: 3128px;
+    height: 3128px;
+    @include xl {
+      left: -904px;
+    }
+    @include lg {
+      left: -1050px;
+    }
+    @include md {
+      left: -1190px;
+    }
+    @include sm {
+      left: -1230px;
+    }
+    @include xs {
+      left: -1250px;
+    }
+    @include xxs {
+      left: -1350px;
+    }
+    @include tn {
+      left: -1370px;
+    }
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 78px 0px;
+    margin: 114px auto 276px;
+    width: 91.32%;
+    @include xxs {
+      column-gap: 8px;
+    }
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px 0px;
+    width: 89.28%;
+    @include xxs {
+      margin-top: unset;
+      margin-right: unset;
+      margin-bottom: unset;
+      margin-left: unset;
+      width: 100%;
+    }
+  }
+  .medium_title {
+    width: 100%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .hero_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font: 600 64px/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 100%;
+    @include xxs {
+      flex-direction: column;
+      gap: 8px 10px;
+      margin-top: unset;
+      margin-right: unset;
+      margin-bottom: unset;
+      margin-left: unset;
+    }
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+    @include xxs {
+      align-items: center;
+      gap: 8px;
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+    }
+  }
+  .hero_title1_box {
+    display: flex;
+    margin: 0px 0px 0px 4px;
+    width: 86.05%;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: unset;
+      margin-right: unset;
+      margin-bottom: unset;
+      margin-left: unset;
+      width: 100%;
+    }
+  }
+  .hero_title1 {
+    font: 400 40px/0.8 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .hero_title1_span0 {
+    font: 1em/0.6 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title1_span1 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title2_box {
+    display: flex;
+    margin: 113px 0px 0px 1px;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      margin: 100px 0px 0px;
+      width: 100%;
+    }
+  }
+  .hero_title2 {
+    font: 400 40px/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .hero_title2_span0 {
+    font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title2_span1 {
+    font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title2_span2 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .title_box {
+    display: flex;
+    margin: 45px 0px 0px;
+    width: 86.05%;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      margin: 100px 0px 0px;
+      width: 100%;
+    }
+  }
+  .title {
+    font: 400 32px/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      text-align: center;
+      font-size: 32px;
+    }
+  }
+  .title_span0 {
+    font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .title_span1 {
+    font: 1em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 561px;
+    @include xxs {
+      column-gap: 0px;
+      margin: 100px 0px 0px;
+      width: 100%;
+    }
+  }
+  .hero_title21_box {
+    display: flex;
+    width: 98.93%;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      flex: 0 1 auto;
+      width: 374px;
+    }
+  }
+  .hero_title21 {
+    font: 400 40px/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .hero_title21_span0 {
+    font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title21_span1 {
+    font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title21_span2 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title21_span3 {
+    font: 0.6em/1.2 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .hero_title11_box {
+    display: flex;
+    margin: 61px 0px 0px;
+    width: 98.93%;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      margin: 100px 0px 0px;
+      width: 374.02px;
+    }
+  }
+  .hero_title11 {
+    font: 400 40px/0.6 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      text-align: center;
+      font-size: 40px;
+    }
+  }
+  .hero_title11_span0 {
+    font: 1em/0.6 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title11_span1 {
+    font: 1em/0.72 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+  }
+  .hero_title11_span2 {
+    font: 0.8em/0.9 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+  }
+  .title_box1 {
+    display: flex;
+    margin: 146px 0px 0px;
+    width: 98.93%;
+    @include xxs {
+      justify-content: center;
+      align-items: flex-start;
+      margin: 100px 0px 0px;
+    }
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 40, 48);
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 145px 0px;
+    margin: 80px auto 24px;
+    width: 77.43%;
+  }
+  .flex_row1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 100%;
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0px;
+    margin: 0px 0px 40px;
+    width: 116px;
+  }
+  .highlight {
+    margin: 0px 37px 0px 0px;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight1 {
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight11 {
+    margin: 0px 19px 0px 0px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_col6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0px;
+    width: 171px;
+  }
+  .highlight2 {
+    width: 100%;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight12 {
+    width: 100%;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_col7 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0px;
+    width: 163px;
+  }
+  .highlight3 {
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight13 {
+    margin: 0px 6px 0px 0px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 98.21%;
+  }
+  .text {
+    font: 400 14px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(217, 219, 225);
+  }
+  .decorator1 {
+    width: 200px;
+  }
+}

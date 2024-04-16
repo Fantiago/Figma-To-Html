@@ -1,0 +1,102 @@
+.sobre-nosotros.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.sobre-nosotros .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.sobre-nosotros .decorator {
+  position: absolute;
+  top: -2244px;
+  left: -835px;
+  width: 3128px;
+  height: 3128px;
+}
+.sobre-nosotros .flex_row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 48px auto 80px;
+  width: 88.26%;
+}
+@media (max-width: 1399px) {
+  .sobre-nosotros .flex_row {
+    justify-content: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+}
+.sobre-nosotros .flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 109px 0px;
+  margin: 0px 0px 20px;
+  width: 576px;
+}
+.sobre-nosotros .medium_title {
+  width: 100%;
+  font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.sobre-nosotros .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 96.35%;
+}
+.sobre-nosotros .medium_title2 {
+  width: 93.87%;
+  font: 400 24px/1 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.sobre-nosotros .hero_title {
+  margin: 111px 0px 0px;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.sobre-nosotros .medium_title1 {
+  margin: 30px 0px 0px;
+  font: 400 32px/1 "Inter", Helvetica, Arial, serif;
+  color: #4e5a65;
+}
+.sobre-nosotros .image1 {
+  margin: 129px 0px 0px;
+  width: auto;
+  max-width: 100%;
+}
+.sobre-nosotros .hero_title1 {
+  margin: 81px 0px 0px;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.sobre-nosotros .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 244px 0px 0px;
+  width: 555px;
+}
+.sobre-nosotros .image {
+  width: auto;
+  max-width: 100%;
+}
+.sobre-nosotros .hero_title2 {
+  margin: 118px 0px 0px;
+  width: auto;
+  font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+  color: #35414b;
+}
+.sobre-nosotros .image2 {
+  margin: 145px 0px 0px;
+  width: auto;
+  max-width: 100%;
+}

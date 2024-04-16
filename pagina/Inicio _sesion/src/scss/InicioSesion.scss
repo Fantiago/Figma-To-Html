@@ -1,0 +1,292 @@
+@use "utils" as *;
+@use "global" as *;
+
+.inicio-sesion {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .decorator {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    width: 3128px;
+    height: 3128px;
+    @include xl {
+      left: -900px;
+    }
+    @include lg {
+      left: -1000px;
+    }
+    @include md {
+      left: -1180px;
+    }
+    @include sm {
+      left: -1230px;
+    }
+    @include xs {
+      left: -1270px;
+    }
+    @include xxs {
+      left: -1360px;
+    }
+    @include tn {
+      left: -1380px;
+    }
+  }
+  .flex_col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 114px auto 249px;
+    width: 86.11%;
+  }
+  .medium_title1 {
+    width: 100%;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .flex_col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 76px 0px 0px;
+    width: 74.03%;
+    @include md {
+      width: 480px;
+    }
+    @include xxs {
+      width: 420px;
+    }
+    @include tn {
+      width: 400px;
+    }
+  }
+  .hero_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 96px/0.25 "Josefin Sans", Helvetica, Arial, serif;
+    color: rgb(29, 40, 48);
+    text-align: center;
+    letter-spacing: -5.76px;
+    @include sm {
+      font-size: 80px;
+    }
+    @include xs {
+      font-size: 75px;
+    }
+    @include xxs {
+      font-size: 60px;
+    }
+    @include tn {
+      font-size: 50px;
+    }
+  }
+  .highlight {
+    margin: 96px 0px 0px;
+    width: 70.59%;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .rect1 {
+    margin: 11px 0px 0px;
+    width: 74.95%;
+    min-height: 45px;
+    background-color: rgb(245, 245, 245);
+  }
+  .image {
+    margin: 8px 0px 0px;
+    width: 74.95%;
+  }
+  .highlight1 {
+    margin: 73px 0px 0px;
+    width: 70.59%;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .rect11 {
+    margin: 8px 0px 0px;
+    width: 74.95%;
+    min-height: 45px;
+    background-color: rgb(245, 245, 245);
+  }
+  .image1 {
+    margin: 5px 0px 0px;
+    width: 74.95%;
+  }
+  .flex_col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 51px 0px;
+    margin: 117px 0px 0px;
+    width: 91.29%;
+    @include sm {
+      width: 590px;
+    }
+    @include xs {
+      column-gap: 8px;
+      width: 450px;
+    }
+    @include xxs {
+      width: 380px;
+    }
+  }
+  .flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 78.53%;
+    @include xs {
+      margin-top: unset;
+      margin-right: unset;
+      margin-bottom: unset;
+      margin-left: unset;
+      width: 100%;
+    }
+    @include tn {
+      width: 371px;
+    }
+  }
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    width: 181px;
+    background-color: rgb(121, 76, 255);
+    border-radius: 33.5px 33.5px 33.5px 33.5px;
+  }
+  .medium_title {
+    margin: 8px 14px 7px 16px;
+    font: 500 24px/2.16 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .medium_title2 {
+    margin: 8px 24px 7px 16px;
+    font: 500 24px/2.16 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_row1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 100%;
+    @include xs {
+      margin-top: unset;
+      margin-right: unset;
+      margin-bottom: unset;
+      margin-left: unset;
+    }
+  }
+  .line {
+    margin: 22px 0px 21px;
+    width: auto;
+    height: 1px;
+    min-height: 1px;
+    background-color: rgb(0, 0, 0);
+  }
+  .image11 {
+    width: 50px;
+    height: 44px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section21 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 10px;
+    background-color: rgb(29, 40, 48);
+  }
+  .flex_col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 145px 0px;
+    margin: 80px auto 24px;
+    width: 77.43%;
+  }
+  .flex_row2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 100%;
+  }
+  .flex_col4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0px;
+    margin: 0px 0px 40px;
+    width: 116px;
+  }
+  .highlight11 {
+    margin: 0px 37px 0px 0px;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight2 {
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight21 {
+    margin: 0px 19px 0px 0px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_col5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0px;
+    width: 171px;
+  }
+  .highlight12 {
+    width: 100%;
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight22 {
+    width: 100%;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_col6 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0px;
+    width: 163px;
+  }
+  .highlight13 {
+    font: 600 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .highlight23 {
+    margin: 0px 6px 0px 0px;
+    font: 400 16px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+  }
+  .flex_row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    width: 98.21%;
+  }
+  .text {
+    font: 400 14px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(217, 219, 225);
+  }
+  .image2 {
+    width: 200px;
+  }
+}

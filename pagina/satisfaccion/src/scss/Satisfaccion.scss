@@ -1,0 +1,483 @@
+@use "utils" as *;
+@use "global" as *;
+
+.satisfaccion {
+  &.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .group {
+    position: absolute;
+    top: -2244px;
+    left: -835px;
+    display: flex;
+    flex-direction: column;
+    width: 3128px;
+    height: 3128px;
+  }
+  .group1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 3128px;
+    height: 3128px;
+  }
+  .decorator {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 3128px;
+    height: 3128px;
+    @include mq-between(xxl, max) {
+      right: 5000px;
+      left: 325px;
+      width: 5000px;
+    }
+    @include mq-between(xxl, xxxl) {
+      left: 171px;
+      width: 3225px;
+      object-position: 280% center;
+    }
+    @include md {
+      right: 500px;
+      width: 2500px;
+    }
+    @include sm {
+      right: 450px;
+      width: 2250px;
+    }
+    @include xxs {
+      width: 2150px;
+    }
+  }
+  .hero_title {
+    position: absolute;
+    bottom: 186px;
+    left: 1715px;
+    width: 700px;
+    height: 48px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    @include mq-between(xxl, max) {
+      top: 3000px;
+      left: 3500px;
+      width: 1000px;
+    }
+    @include mq-between(xxl, xxxl) {
+      left: 1870px;
+    }
+    @include xl {
+      left: 1550px;
+    }
+    @include lg {
+      left: 1350px;
+    }
+    @include md {
+      left: 1220px;
+      align-items: flex-start;
+      width: 500px;
+      font-size: 50px;
+    }
+    @include sm {
+      left: 1175px;
+      font-size: 45px;
+    }
+    @include xs {
+      left: 1140px;
+      width: 400px;
+      font-size: 35px;
+    }
+    @include xxs {
+      left: 1060px;
+      width: 200px;
+      font-size: 25px;
+    }
+    @include tn {
+      left: 1020px;
+    }
+  }
+  .hero_title1 {
+    position: absolute;
+    bottom: 193px;
+    left: 956px;
+    width: 700px;
+    height: 48px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    @include mq-between(xxl, max) {
+      top: 3000px;
+      left: 1150px;
+      width: 1000px;
+    }
+    @include mq-between(xxl, xxxl) {
+      bottom: 167px;
+      left: 1004px;
+    }
+    @include lg {
+      left: 900px;
+    }
+    @include md {
+      left: 850px;
+      align-items: flex-start;
+      width: 500px;
+      font-size: 50px;
+    }
+    @include sm {
+      top: 2895px;
+      left: 860px;
+      font-size: 45px;
+    }
+    @include xs {
+      left: 880px;
+      width: 400px;
+      font-size: 35px;
+    }
+    @include xxs {
+      left: 860px;
+      width: 300px;
+      font-size: 25px;
+    }
+  }
+  .big_title {
+    position: absolute;
+    bottom: 333px;
+    left: 1050px;
+    display: flex;
+    width: 1070px;
+    height: 160px;
+    font: 400 36px/1.11 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    @include mq-between(xxl, max) {
+      top: 2700px;
+      left: 2200px;
+      align-items: flex-start;
+      width: 1200px;
+      font-size: 50px;
+    }
+    @include mq-between(xxl, xxxl) {
+      top: 2600px;
+      left: 1246px;
+      font-size: 40px;
+    }
+    @include xl {
+      left: 950px;
+    }
+    @include lg {
+      left: 880px;
+      align-items: flex-start;
+      width: 950px;
+      font-size: 28px;
+    }
+    @include md {
+      width: 700px;
+    }
+    @include sm {
+      top: 2600px;
+      left: 920px;
+      justify-content: center;
+      width: 500px;
+      text-align: center;
+    }
+    @include xs {
+      left: 880px;
+      font-size: 25px;
+    }
+    @include xxs {
+      left: 870px;
+      width: 350px;
+      font-size: 20px;
+    }
+    @include tn {
+      left: 850px;
+    }
+  }
+  .hero_title2 {
+    position: absolute;
+    bottom: 523px;
+    left: 1211px;
+    display: flex;
+    justify-content: center;
+    width: 662px;
+    height: 48px;
+    font: 600 64px/0.75 "Inter", Helvetica, Arial, serif;
+    color: rgb(53, 65, 75);
+    text-align: center;
+    @include mq-between(xxl, max) {
+      left: 2400px;
+      align-items: flex-start;
+      width: 800px;
+      font-size: 75px;
+    }
+    @include mq-between(xxl, xxxl) {
+      top: 2520px;
+      bottom: 546px;
+      left: 1402px;
+    }
+    @include xl {
+      left: 1100px;
+    }
+    @include lg {
+      left: 1020px;
+    }
+    @include md {
+      left: 900px;
+      align-items: flex-start;
+      font-size: 50px;
+    }
+    @include sm {
+      top: 2500px;
+      left: 880px;
+      width: 600px;
+    }
+    @include xs {
+      left: 825px;
+      font-size: 45px;
+    }
+    @include xxs {
+      left: 750px;
+      font-size: 30px;
+    }
+    @include tn {
+      left: 730px;
+    }
+  }
+  .group2 {
+    position: absolute;
+    bottom: 529px;
+    left: 915px;
+    display: flex;
+    flex-direction: column;
+    width: 552px;
+    height: 460px;
+    @include sm {
+      width: 500px;
+    }
+  }
+  .medium_title {
+    position: absolute;
+    top: 158px;
+    right: -767px;
+    width: 1358px;
+    height: 16px;
+    font: 400 24px/0.66 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include mq-between(xxl, max) {
+      align-items: flex-start;
+      font-size: 40px;
+    }
+    @include xxs {
+      right: -410px;
+      align-items: flex-start;
+      width: 1000px;
+      font-size: 18px;
+    }
+  }
+  .rect {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 552px;
+    height: 460px;
+    @include sm {
+      width: 500px;
+    }
+  }
+  .flex_row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    margin: 781px auto 526px;
+    width: 94.51%;
+  }
+  .medium_title1 {
+    display: flex;
+    margin: 50px 0px 0px;
+    width: 555px;
+    font: 400 35px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    @include mq-between(xxl, max) {
+      align-items: flex-start;
+      margin: 70px 0px 0px 200px;
+      width: 800px;
+      font-size: 50px;
+    }
+    @include mq-between(xxl, xxxl) {
+      margin: 70px 0px 0px 100px;
+    }
+    @include lg {
+      align-items: flex-start;
+      font-size: 30px;
+    }
+    @include md {
+      font-size: 25px;
+    }
+    @include sm {
+      justify-content: center;
+      margin: 0px;
+      text-align: center;
+    }
+    @include xs {
+      font-size: 20px;
+    }
+    @include xxs {
+      font-size: 15px;
+    }
+  }
+  .medium_title11 {
+    display: flex;
+    margin: 50px 400px 33px 0px;
+    width: 555px;
+    font: 400 35px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(78, 90, 101);
+    @include mq-between(xxl, max) {
+      align-items: flex-start;
+      margin: 70px 600px 33px 1000px;
+      width: 700px;
+      font-size: 50px;
+    }
+    @include mq-between(xxl, xxxl) {
+      margin: 70px 100px 33px 0px;
+      font-size: 40px;
+    }
+    @include lg {
+      align-items: flex-start;
+      margin: 50px 0px 33px;
+      font-size: 30px;
+    }
+    @include md {
+      font-size: 25px;
+    }
+    @include sm {
+      justify-content: center;
+      margin: 0px 0px 33px;
+      text-align: center;
+    }
+    @include xs {
+      font-size: 20px;
+    }
+    @include xxs {
+      font-size: 15px;
+    }
+  }
+  .content_box {
+    position: absolute;
+    top: 1240px;
+    left: 44px;
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    height: 52px;
+    background-color: rgb(121, 110, 255);
+    border-radius: 4px 4px 4px 4px;
+    @include mq-between(xxl, max) {
+      top: 1400px;
+      left: 300px;
+      width: 200px;
+    }
+    @include mq-between(xxl, xxxl) {
+      top: 1300px;
+      left: 150px;
+    }
+    @include lg {
+      top: 1210px;
+    }
+    @include sm {
+      top: 1130px;
+      left: 100px;
+    }
+    @include xs {
+      top: 1050px;
+      left: 80px;
+    }
+    @include xxs {
+      top: 1000px;
+      left: 70px;
+      width: 80px;
+      height: 35px;
+    }
+    @include tn {
+      top: 1050px;
+    }
+  }
+  .highlight {
+    display: flex;
+    justify-content: center;
+    margin: 18px 21px;
+    font: 500 20px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    @include mq-between(xxl, max) {
+      align-items: flex-start;
+      font-size: 30px;
+    }
+    @include xxs {
+      align-items: flex-start;
+      font-size: 12px;
+    }
+  }
+  .highlight1 {
+    position: absolute;
+    top: 1200px;
+    left: 863px;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 52px;
+    font: 500 20px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(121, 110, 255);
+    border-radius: 4px 4px 4px 4px;
+    padding: 18px 21px 18px 21px;
+    @include mq-between(xxl, max) {
+      top: 1400px;
+      left: 2700px;
+      align-items: flex-start;
+      width: 250px;
+      font-size: 30px;
+    }
+    @include mq-between(xxl, xxxl) {
+      top: 1300px;
+      left: 1116px;
+    }
+    @include xl {
+      left: 700px;
+    }
+    @include lg {
+      left: 520px;
+    }
+    @include md {
+      left: 400px;
+    }
+    @include sm {
+      top: 1110px;
+      left: 420px;
+    }
+    @include xs {
+      top: 1050px;
+      left: 350px;
+    }
+    @include xxs {
+      top: 995px;
+      left: 260px;
+      align-items: flex-start;
+      width: 100px;
+      height: 35px;
+      font-size: 12px;
+    }
+    @include tn {
+      top: 1050px;
+      left: 230px;
+    }
+  }
+}
