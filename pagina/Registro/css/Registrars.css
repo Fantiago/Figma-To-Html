@@ -509,3 +509,6 @@
   width: 18px;
   height: 12px;
 }
+a {
+  text-decoration: none;
+}
