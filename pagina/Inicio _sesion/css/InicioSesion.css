@@ -326,3 +326,6 @@
 .inicio-sesion .image2 {
   width: 200px;
 }
+a {
+  text-decoration: none;
+}
