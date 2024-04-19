@@ -234,3 +234,13 @@
   font: 1em/1.53 "Inter", Helvetica, Arial, serif;
   color: #4e5a65;
 }
+.comentarios .boton{
+  justify-content: center;
+    margin: 0px 0px;
+    width: 200px;
+    height: auto;
+    font: 500 15px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    background-color: #796eff;
+    text-align: center;
+}
