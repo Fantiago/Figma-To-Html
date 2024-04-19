@@ -180,11 +180,12 @@
   }
 }
 .reservas .title11 {
-  display: flex;
-  justify-content: center;
-  margin: 18px 21.5px;
-  font: 500 32px/0.5 "Inter", Helvetica, Arial, serif;
-  color: white;
-  text-align: center;
-  letter-spacing: -0.1px;
+    justify-content: center;
+    margin: 0px 0px;
+    width: auto;
+    height: auto;
+    font: 500 40px/1 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    background-color: #796eff;
+    text-align: center;
 }
