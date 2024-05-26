@@ -1,0 +1,33 @@
+
+.gallery-container {
+    position: relative;
+    width: 600px; /* Ancho del contenedor que muestra 3 imágenes de ancho */
+    height: 600px; /* Altura del contenedor que muestra 3 imágenes de alto */
+    overflow: hidden;
+}
+
+.gallery-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery {
+    display: flex;
+}
+
+.image-set {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* Ancho de un conjunto de 3x3 imágenes */
+    height: 600px; /* Altura de un conjunto de 3x3 imágenes */
+}
+
+.image-set img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
